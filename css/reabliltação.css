@@ -13,13 +13,16 @@
     height: 100%;
    }
    .titulo{
-    margin-top: 30px;
-    text-align:center;
+    margin-top: 20px;
+    margin-left: 600px;
    }
 .véio{
+    margin-top: 100px;
     margin-left: 600px;
 }
 .R1{
     font-size: 20px;
-    
 }
+.cabeça{
+    display: flex;
+    }
