@@ -13,7 +13,7 @@
 }
 .Ttrat{
     margin-top: 70px;
-    margin-left: 30px;
+    margin-left: 440px;
 }
 .container{
     display: flex;
@@ -24,7 +24,7 @@
 }
 .text-b{
 margin: 0 auto;
-margin-left: 30px;
+margin-left: 120px;
  margin-top: 10px;
  max-width: 40%;
  padding: 30px;
@@ -41,30 +41,52 @@ margin-left: 1100px;
  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
 }
 .Ttrat2{
-    margin-top: 30px;
-    margin-left: 1100px;
+    margin-top: 50px;
+    margin-left: 1300px;
 }
 .Ttrat3{
-    margin-left: 20px;
+    margin-top: 100px;
+    margin-left: 260px;
 }
 .text-b3{
     margin: 0 auto;
-    margin-left: 30px;
-     margin-top: 10px;
+    margin-left: 120px;
+     margin-top: 20px;
      max-width: 40%;
      padding: 30px;
      border-radius: 8px;
      box-shadow: 0 8px 24px rgba(0,0,0,0.2); 
 }
-.img1 {
- 
-    width: 250px;
-    height: 200px;
-    object-fit:cover;
-    object-position: top center;
+.img1{
+    width: 350px;
+    height: auto;
+    position: absolute;
+    top: 110px;
+    left: 130px;
+    margin-left: 1200px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  }
 
-}
+.img2{
+    width: 350px;
+    height: auto;
+    position: absolute;
+    top: 410px;
+    left: 100px;
+    margin-left: 280px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  }
 
+
+
+.img3{
+    width: 390px;
+    position: absolute;
+    top: 700px;
+    left: 200px;
+    margin-left: 1110px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  }
 
 
 
