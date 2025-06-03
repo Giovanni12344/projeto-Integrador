@@ -1,36 +1,96 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.body, html{
+.body,
+html {
     margin-top: 20;
     background-color: #d3e9ff;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     height: 100%;
-   }
-   .titulo{
-    border-radius: 20px;
-    margin-top: 30px;
-    margin-left: 700px;
-   }
-.véio{
-    margin-top: 50px;
-    margin-left: 100px;
 }
-.R1{
-    font-size: 20px;
+
+.titulo {
+    margin: 0 auto;
+    margin-left: 830px;
+    margin-top: 10px;
+    max-width: 20%;
+    padding: 15px;
+    border-radius: 8px;
+
 }
-.cabeça{
+
+.véio {
+    width: 360px;
+    margin: 0 auto;
+    margin-left: 230px;
+    margin-top: 20px;
+    
+
+}
+
+.R1 {
+    margin: 0 auto;
+    margin-left: 120px;
+    margin-top: 20px;
+    max-width: 40%;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+
+
+}
+
+.cabeça {
     display: flex;
-    }
-.rodinha{
-    margin-top: 50px;
-    margin-left: 1200px;
 }
-.loira{
-    margin-left: 100px;
+
+
+.rodinha {
+    width: 400px;
+    margin: 0 auto;
+    margin-left: 1340px;
+    margin-top: 20px;
+    
+    
+    
+
+}
+
+.R2 {
+    margin: 0 auto;
+    margin-left: 1200px;
+    margin-top: 20px;
+    max-width: 40%;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+
+}
+
+.loira {
+    width: 350px;
+    margin-left: 230px;
+    margin-top: 100px;
+    
+
+}
+
+.R3 {
+    margin-left: 120px;
+    margin-top: 10px;
+    max-width: 40%;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+
+
+}
+
+body {
+    min-height: 200vh;
 }

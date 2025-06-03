@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -85,8 +85,8 @@ margin-left: 1100px;
     top: 700px;
     left: 200px;
     margin-left: 1110px;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
-  }
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  }
 
 
 
