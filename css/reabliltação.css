@@ -13,6 +13,39 @@ html {
     background-attachment: fixed;
     height: 100%;
 }
+.navbar {
+    display: flex;
+    background-color: #86bbf0;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    padding: 0 20px;
+}
+.logo{
+    margin-left: -430px;
+}
+.logo img {
+    height: 100px;
+}
+
+.navlinks {
+    display: flex;
+    gap: 20px;
+}
+
+.navlinks a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    padding: 8px 12px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navlinks a:hover {
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+}
 
 .titulo {
     margin: 0 auto;
@@ -90,7 +123,55 @@ html {
 
 
 }
+.footer{
+   
+    background-position: center;
+    background-size: cover;
+  }
+  .footer-top .container-footer{
+    background-color: #86bbf0;
+    margin:0 auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 35px;
+    max-width: 100vw;
+    font-size:medium;
+  }
+  .footer-brand .footer-text{
+    margin-block: 20px 25px;
+  }
 
-body {
-    min-height: 200vh;
-}
+  .footer-brand .social-list{
+    display: flex;
+    gap: 10px;
+  }
+
+  .footer .social-link{
+    background-color: #ffffff;
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    clip-path: circle(50% at 50% 50%);
+    transition: background-color 0.3s ease, transform 0.3s ease ;
+
+  }
+
+  .footer .social-link:hover{   
+   background-color: rgb(24, 58, 207);
+  transform: scale(1.05);
+  }
+
+  .linksU{
+    margin-top: 20px;
+  }
+ .footer-list{
+      margin-top: 20px;
+ }
+ .footer-bottom{
+    margin-top: 70px;
+ }
+ .logoR img{
+    height: 70px;
+ }

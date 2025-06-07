@@ -19,7 +19,7 @@ max-width: 800px;
 height: 600px;
 padding: 8px;
 border-radius: 10px;
-box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+box-shadow: 0 8px 24px rgba(0, 0, 0, 0.363);
 }
 .titulo{
     margin: 10px;
@@ -44,11 +44,20 @@ input{
 }
 .back{
     cursor: pointer;
-    font-size: 20px;
+    font-size: 30px;
     border: none;
     background-color: transparent;
-    margin-top: 150px;
+    margin-top: 120px;
 }
 .email{
     margin-top: 80px;
+}
+.I{
+    font-size: 28px;
+}
+.cadastre-se{
+    font-size: x-large;
+}
+img{
+    height: 100px;
 }
