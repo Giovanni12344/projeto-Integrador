@@ -11,6 +11,15 @@
     background-attachment: fixed;
     height: 100%;
 }
+.navbar {
+    display: flex;
+    background-color: #86bbf0;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
 
 .login-container {
 margin-top: 240px;
@@ -51,4 +60,11 @@ input{
 }
 .email{
     margin-top: 80px;
+}
+ion-icon{
+    font-size: xx-large;
+}
+.entrar{
+    margin-top: 70px;
+    margin-left: 700px;
 }
