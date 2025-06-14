@@ -67,3 +67,13 @@ ion-icon{
     margin-top: 70px;
     margin-left: 700px;
 }
+@media (max-width: 768px) {
+    .login-container{
+        margin-left: 100px;
+        height: auto;
+        max-width: 600px;
+    }
+      .entrar{
+    margin-left: 530px;
+   }
+}

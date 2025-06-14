@@ -69,6 +69,7 @@ body {
     color: #fff;
     border-radius: 5px;
 }
+
 /*BEM VINDO*/
 .titulo1 {
     margin-top: 60px;
@@ -208,8 +209,25 @@ body {
 
 /* Responsividade para telas menores */
 @media (max-width: 768px) {
-    .navlinks {
-     display: none;
+    .navbar {
+     max-width: 768px;
     }
-
+    .navlinks{
+        margin-left: 10px;   
+        gap: 5px;
+    }
+    .logo{
+        margin-left: -25px;
+    }
+    .container{
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;
+    }
+    .banner{
+        margin-left: 170px;
+    }
+    .footer{
+        max-width: 768px;
+    }
 }
