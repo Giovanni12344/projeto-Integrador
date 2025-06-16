@@ -12,6 +12,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     height: 100%;
+    overflow-x: hidden;
 }
 
 /*navbar*/
@@ -69,7 +70,14 @@ body {
     color: #fff;
     border-radius: 5px;
 }
-
+ion-icon{
+    color: black;
+    font-size: 32px;
+}
+ion-icon:hover{
+    color: white;
+    transition: color 0.3s;
+}
 /*BEM VINDO*/
 .titulo1 {
     margin-top: 60px;
@@ -208,26 +216,105 @@ body {
 }
 
 /* Responsividade para telas menores */
-@media (max-width: 768px) {
-    .navbar {
-     max-width: 768px;
+@media (max-width: 375px) {
+    .navbar{
+        max-width: auto;
     }
-    .navlinks{
-        margin-left: 10px;   
-        gap: 5px;
-    }
-    .logo{
-        margin-left: -25px;
-    }
-    .container{
-    margin-top: 30px;
-    flex-direction: column;
-    align-items: center;
-    }
-    .banner{
-        margin-left: 170px;
-    }
-    .footer{
-        max-width: 768px;
-    }
+
+        .navlinks {
+            display: none;
+        }
+    
+        .logo {
+            margin-left: -20px;
+        }
+    
+        .logo img {
+            height: 50px;
+            max-width: 100%;
+        }
+
+        ion-icon{
+            margin-left: -90px;
+        }
+    
+        .titulo1 {
+            margin-left: -40px;
+            font-size: 26px;
+            text-align: center;
+            padding: 0 20px;
+        }
+    
+        .text1,
+        .txt-sobre,
+        .texto1 {
+            margin-left: -50px;
+            font-size: 16px;
+            text-align: center;
+        }
+    
+        .text-b {
+            margin-left: -30px;
+            padding: 0 20px;
+        }
+    
+        .container {
+            margin-top: 30px;
+            flex-direction: column;
+            align-items: center;
+           
+        }
+    
+        .img-menu img {
+            width: 100%;
+            height: auto;
+        }
+    
+        .banner {
+            margin-left: -20px;
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+            padding: 0 20px;
+        }
+    
+        .container2 {
+            margin-left: 15 px;
+            margin-top: 30px;
+            max-width: 100%;
+        }
+    
+        .titulo-sobre {
+            font-size:26px;
+            text-align: center;
+        }
+    
+        .txt-sobre {
+            font-size: 16px;
+            text-align: center;
+        }
+    
+        .text-sobre div {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+    
+        .footer-top .container-footer {
+            grid-template-columns: 1fr;
+            max-width: 100vw;
+        }
+    
+        .logoR img {
+            height: 50px;
+            max-width: 100%;
+        }
+        .copy{
+            font-size: 14px;
+        }
+        .social-list ion-icon{
+            font-size: 20px;
+            margin-left: 2px;
+        }
+    
 }
