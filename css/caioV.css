@@ -70,7 +70,7 @@ body {
     color: #fff;
     border-radius: 5px;
 }
-ion-icon{
+.navbar ion-icon{
     color: black;
     font-size: 32px;
 }
@@ -182,6 +182,9 @@ ion-icon:hover{
     display: flex;
     gap: 10px;
 }
+.footer .social-link ion-icon {
+    color: blue;
+}
 
 .footer .social-link {
     background-color: #ffffff;
@@ -195,7 +198,7 @@ ion-icon:hover{
 }
 
 .footer .social-link:hover {
-    background-color: rgb(24, 58, 207);
+    background-color: rgb(76, 101, 212);
     transform: scale(1.05);
 }
 
